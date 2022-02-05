@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&family=Poppins&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #0b4619;
+    line-height: 1.5;
+}
+
+
+/* Latihan 1 */
+
+.container-satu {
+    max-width: 1650px;
+    margin: 20px auto;
+    background-color: #116530;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+}
+
+.kolom-utama {
+    flex: 3;
+    order: 2;
+}
+
+.kolom-utama p {
+    padding: 0 10px;
+}
+
+.kolom-utama h1 {
+    color: #fdff8f;
+    font-size: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 3px 3px #0b4619;
+}
+
+.sidebar-satu {
+    flex: 1;
+    order: 1;
+    background-color: #146e35;
+    border-radius: 10px;
+}
+
+.sidebar-satu ul {
+    padding-left: 10px;
+}
+
+.sidebar-satu h3 {
+    color: #fdff8f;
+    text-align: center;
+}
+
+.sidebar-satu ul {
+    list-style: none;
+}
+
+.sidebar-dua {
+    flex: 1;
+    order: 3;
+    background-color: #146e35;
+    border-radius: 10px;
+}
+
+.sidebar-dua p {
+    padding: 0 10px;
+}
+
+.sidebar-dua h3 {
+    color: #fdff8f;
+    text-align: center;
+}
+
+
+/* Latihan 2 */
+
+.container-dua {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #116530;
+}
+
+.layanan {
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 5.8px 11.7px 11.7px hsl(0deg 0% 0% / 0.32);
+    margin-bottom: 30px;
+}
+
+.layanan.satu {
+    background-color: #b2ea70;
+}
+
+.layanan.satu h3 {
+    text-align: center;
+}
+
+.layanan.dua {
+    background-color: #17d7a0;
+}
+
+.layanan.dua h3 {
+    text-align: center;
+}
+
+.layanan.tiga {
+    background-color: #b2ea70;
+}
+
+.layanan.tiga h3 {
+    text-align: center;
+}
+
+
+/* Latihan Tiga */
+
+.container-tiga {
+    max-width: 1650px;
+    margin: 20px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #116530;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.thumbnail {
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.thumbnail img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+/* Latihan 4 */
+
+.container-empat {
+    max-width: 1200px;
+    margin: 20px auto;
+    border-radius: 10px;
+    display: flex;
+}
+
+.card {
+    margin: 15px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    flex: 1;
+}
+
+.card .header {
+    height: 150px;
+    background-color: #288f4e;
+}
+
+.card .content {
+    text-align: center;
+    padding: 10px;
+}
+
+.card.besar {
+    transform: scale(1.12);
+}
+
+p {
+    margin: 0;
+}
+
+button {
+    width: 30%;
+    height: 45px;
+    background-color: #fdebf7;
+    border: none;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 1.1rem;
+    color: #0b4619;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0b4619;
+    color: #fdebf7;
+    border-radius: 2px solid #fdebf7;
+}
+
+hr {
+    border: 0;
+    width: 50%;
+    height: 1px;
+    background-image: linear-gradient( to right, rgba(88, 88, 88, 0.425), rgba(255, 255, 255, 0.75), rgba(88, 88, 88, 0.425));
+}
+
+
+/* Latihan 5 */
+
+.container-lima {
+    width: 500px;
+    height: 500px;
+    border: 10px solid #288f4e;
+    margin: 50px auto;
+    display: flex;
+}
+
+.kotak {
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff;
+    /* centering text horizontally*/
+    text-align: center;
+    /* centering text vertically: adjust to height 200px*/
+    /* line-height: 200px; */
+    margin: auto;
+    display: flex;
+}
+
+.kotak span {
+    margin: auto;
+}
+
+
+/* Responsive */
+
+@media (min-width: 1250px) {
+    .container-dua {
+        display: flex;
+        justify-content: space-between;
+    }
+    .layanan {
+        width: 30%;
+    }
+    .thumbnail {
+        width: 25%;
+    }
+}
+
+
+/* 25:47 */
